@@ -1,0 +1,180 @@
+
+/* Цветовая схема светлой темы */
+@mixin light-theme-css-vars {
+    --header-color: #{$blue-gray-color-800};
+    --subheader-color: #{$blue-gray-color-200};
+
+    // Цвета фона приложения, краточек, ошибок
+    --background-app-color: #{$white-color};
+    --background-accent-color: #{$blue-gray-color-800};
+    --background-surface-color: #{$blue-gray-color-100};
+    --background-surface-color-a1: #{$blue-gray-color-50};
+    --background-surface-color-a2: #{$blue-gray-color-200};
+    --background-surface-color-a3: #{$blue-gray-color-300};
+    --background-alarm-color: #{$warm-red-color-100};
+
+    // Цвета текста на поверхностях с акцентным цветом
+    --on-accent-primary-text-color: #{$white-color};
+    --on-accent-secondary-text-color: #{$blue-gray-color-400};
+    --on-accent-anchor-text-color: #{$sky-blue-color-400};
+    --on-accent-interactive-text-color: #{$warm-gray-color-400};
+    --on-accent-interactive-icon-color: #{$blue-gray-color-300};
+    --on-accent-interactive-icon-hover-color: #ebebeb;
+
+    // Цвета текста на поверхностях: приложения, карточек
+    --on-surface-primary-text-color: #{$blue-gray-color-800};
+    --on-surface-secondary-text-color: #{$blue-gray-color-400};
+    --on-surface-anchor-text-color: #{$sky-blue-color-400};
+    --on-surface-interactive-text-color: #{$warm-gray-color-400};
+    --on-surface-interactive-icon-color: #b0bec5;
+    --on-surface-interactive-icon-hover-color: #{$sky-blue-color-300};
+
+    // Цвета текста на поверхностях с цветом ошибки
+    --on-alarm-primary-text-color: #{$blue-gray-color-800};
+    --on-alarm-secondary-text-color: #{$blue-gray-color-400};
+    --on-alarm-anchor-text-color: #{$sky-blue-color-400};
+
+    --divider-color: rgba(0, 51, 76, .15);
+
+    // Цвета табов, их заголовков
+    --tab-title-text-color: #{$blue-gray-color-800};
+    --tab-title-text-hover-color: #{$sky-blue-color-600};
+    --tab-title-active-background-color: #{$blue-gray-color-800};
+    --tab-title-active-text-color: #{$white-color};
+    --tab-header-background-color: #{$sky-blue-color-600};
+    --tab-subheader-background-color: #{$blue-gray-color-200};
+    --tab-subheader-primary-text-color: #{$blue-gray-color-800};
+
+    // Цвета элементов форм - input, select, checkbox (по умолчанию)
+    --form-elem-background-color: #{$white-color};
+    --form-elem-text-color: #{$blue-gray-color-800};
+    --form-elem-title-color: #{$blue-gray-color-400};
+    --form-elem-placeholder-color: #b0bec5;
+    --form-elem-border-color: #{$blue-gray-color-200};
+    --form-elem-icon-color: #{$blue-gray-color-300};
+    --form-elem-interactive-icon-color: #{$blue-gray-color-400};
+
+    // Цвета элементов форм - input, select, checkbox (в измененном состоянии)
+    --form-elem-active-border-color: #{$blue-gray-color-400};
+    --form-elem-error-text-color: #{$warm-red-color-800};
+    --form-elem-error-border-color: #{$warm-red-color-400};
+    --form-elem-disabled-text-color: #{$blue-gray-color-400};
+    --form-elem-disabled-background-color: #{$blue-gray-color-200};
+
+    // Цвета для простой таблицы
+    --table-row-odd-background-color: #{$blue-gray-color-50};
+    --table-row-even-background-color: #{$blue-gray-color-100};
+
+    // Цвета для таблицы заявок
+    --claims-graph-background-color: #{$blue-gray-color-100};
+    --claims-graph-row-even-background-color: rgba(236, 239, 241, .9);
+    --claims-graph-row-hover-background-color: rgba(207, 216, 220, .3);
+    --claims-graph-column-even-background-color: rgba(251, 251, 251, .6);
+
+    // Цвета для графика отпусков
+    --vacations-graph-row-odd-background-color: #{$blue-gray-color-100};
+    --vacations-graph-row-even-background-color: #{$blue-gray-color-50};
+    --vacations-graph-cell-odd-weekend-background-color: #{$warm-red-color-100};
+    --vacations-graph-cell-even-weekend-background-color: #{$warm-red-color-50};
+
+    --modal-background-color: #{$white-color};
+}
+
+
+/* Цветовая схема темной темы */
+@mixin dark-theme-css-vars {
+    --header-color: #{$sky-blue-color-600};
+    --subheader-color: #{$warm-gray-color-700};
+
+    // Цвета фона приложения, краточек, ошибок
+    --background-app-color: #181D23;
+    --background-accent-color: #{$sky-blue-color-400};
+    --background-surface-color: #{$warm-gray-color-700};
+    --background-surface-color-a1: #{$warm-gray-color-500};
+    --background-surface-color-a2: #{$warm-gray-color-600};
+    --background-surface-color-a3: #{$warm-gray-color-800};
+    --background-alarm-color: #{$dusty-cherry-color-600};
+
+    // Цвета текста на поверхностях с акцентным цветом
+    --on-accent-primary-text-color: #{$white-color};
+    --on-accent-secondary-text-color: #{$sky-blue-color-300};
+    --on-accent-anchor-text-color: #{$warm-gray-color-700};
+    --on-accent-interactive-text-color: #{$sky-blue-color-200};
+    --on-accent-interactive-icon-color: #{$sky-blue-color-200};
+    --on-accent-interactive-icon-hover-color: #ebebeb;
+
+    // Цвета текста на поверхностях: приложения, карточек
+    --on-surface-primary-text-color: #{$warm-gray-color-200};
+    --on-surface-secondary-text-color: #{$warm-gray-color-400};
+    --on-surface-anchor-text-color: #{$sky-blue-color-400};
+    --on-surface-interactive-text-color: #{$warm-gray-color-400};
+    --on-surface-interactive-icon-color: #{$warm-gray-color-400};
+    --on-surface-interactive-icon-hover-color: #{$warm-gray-color-200};
+
+    // Цвета текста на поверхностях с цветом ошибки
+    --on-alarm-primary-text-color: #{$warm-gray-color-200};
+    --on-alarm-secondary-text-color: #{$dusty-cherry-color-100};
+    --on-alarm-anchor-text-color: #{$sky-blue-color-400};
+
+    --divider-color: rgba(176, 178, 194, .15);
+
+    // Цвета табов, их заголовков
+    --tab-title-text-color: #{$warm-gray-color-400};
+    --tab-title-text-hover-color: #{$sky-blue-color-600};
+    --tab-title-active-background-color: #{$sky-blue-color-400};
+    --tab-title-active-text-color: #{$white-color};
+    --tab-subheader-background-color: #{$warm-gray-color-500};
+    --tab-subheader-primary-text-color: #{$warm-gray-color-200};
+
+    // Цвета элементов форм - input, select, checkbox (по умолчанию)
+    --form-elem-background-color: #{$warm-gray-color-700};
+    --form-elem-text-color: #{$warm-gray-color-200};
+    --form-elem-title-color: #{$warm-gray-color-400};
+    --form-elem-placeholder-color: #{$warm-gray-color-500};
+    --form-elem-border-color: #{$warm-gray-color-600};
+    --form-elem-icon-color: #{$warm-gray-color-400};
+    --form-elem-interactive-icon-color: #{$blue-gray-color-400};
+
+    // Цвета элементов форм - input, select, checkbox (в измененном состоянии)
+    --form-elem-active-border-color: #{$sky-blue-color-400};
+    --form-elem-error-text-color: #{$warm-red-color-800};
+    --form-elem-error-border-color: #{$warm-red-color-400};
+    --form-elem-disabled-text-color: #{$warm-gray-color-400};
+    --form-elem-disabled-background-color: #{$warm-gray-color-500};
+
+    // Цвета для простой таблицы
+    --table-row-odd-background-color: #{$warm-gray-color-700};
+    --table-row-even-background-color: #{$warm-gray-color-800};
+
+    // Цвета для таблицы заявок
+    --claims-graph-background-color: #{$warm-gray-color-700};
+    --claims-graph-row-even-background-color: rgba(37, 48, 60, .6);
+    --claims-graph-row-hover-background-color: rgba(24, 29, 35, .3);
+    --claims-graph-column-even-background-color: rgba(55, 66, 79, .6);
+
+    // Цвета для графика отпусков
+    --vacations-graph-row-odd-background-color: #{$warm-gray-color-700};
+    --vacations-graph-row-even-background-color: #{$warm-gray-color-800};
+    --vacations-graph-cell-odd-weekend-background-color: #{$dusty-cherry-color-600};
+    --vacations-graph-cell-even-weekend-background-color: #{$dusty-cherry-color-900};
+
+    --modal-background-color: #{$warm-gray-color-800};
+}
+
+:root[theme="light"] {
+    @include light-theme-css-vars();
+}
+
+:root[theme="dark"] {
+    @include dark-theme-css-vars();
+}
+
+:root[theme="automatic"] {
+    @media (prefers-color-scheme: light) {
+        @include light-theme-css-vars();
+    }
+
+    @media (prefers-color-scheme: dark) {
+        @include dark-theme-css-vars();
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "themeable-ui",
+  "version": "1.0.0",
+  "description": "common styles for themable projects",
+  "main": "./src/styles/index.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KateSwann/themeable-ui.git"
+  },
+  "author": "Ekaterina Lebedeva",
+  "license": "MIT",
+  "homepage": "https://github.com/KateSwann/themeable-ui#readme"
+}
