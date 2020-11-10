@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "description": "common styles for themable projects",
   "main": "./src/styles/index.scss",
-  "files": [
-    "LICENSE.md"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KateSwann/themeable-ui.git"
