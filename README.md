@@ -2,7 +2,7 @@
 
 ## Установка
 ```
-npm install git+ssh://git@git.webestudio.ru:7999/tm/uikit.git 
+npm install --save themeable-ui
 ```
 
 ## Подключение стилей для использования тем в проектах на vue.js:
@@ -10,11 +10,11 @@ npm install git+ssh://git@git.webestudio.ru:7999/tm/uikit.git
 
    ```html
    <style lang="scss">
-    @import 'uikit';
+    @import 'themeable-ui';
     ...
    ```
 
 2. В директории `frontend/src/styles/` в файле `index.scss` самой верхней строчкой импортируйте файл с палеткой доступных цветов:
     ```css
-    @import '../../node_modules/uikit/src/styles/palette.scss';
+    @import '../../node_modules/themeable-ui/src/styles/palette.scss';
     ```
