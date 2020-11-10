@@ -1,6 +1,6 @@
 {
   "name": "themeable-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "common styles for themable projects",
   "main": "./src/styles/index.scss",
   "repository": {

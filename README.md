@@ -16,5 +16,5 @@ npm install --save themeable-ui
 
 2. В директории `frontend/src/styles/` в файле `index.scss` самой верхней строчкой импортируйте файл с палеткой доступных цветов:
     ```css
-    @import '../../node_modules/themeable-ui/src/styles/palette.scss';
+    @import 'themeable-ui/src/styles/palette.scss';
     ```
