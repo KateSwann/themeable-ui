@@ -1,4 +1,3 @@
-
 /* Цветовая схема светлой темы */
 @mixin light-theme-css-vars {
     --header-color: #{$blue-gray-color-800};
@@ -9,8 +8,8 @@
     --background-accent-color: #{$blue-gray-color-800};
     --background-surface-color: #{$blue-gray-color-100};
     --background-surface-color-a1: #{$blue-gray-color-50};
-    --background-surface-color-a2: #{$blue-gray-color-200};
-    --background-surface-color-a3: #{$blue-gray-color-300};
+    --background-surface-color-a2: #{$white-color};
+    --background-surface-color-a3: #{$blue-gray-color-200};
     --background-alarm-color: #{$warm-red-color-100};
 
     // Цвета текста на поверхностях с акцентным цветом
@@ -89,10 +88,10 @@
     // Цвета фона приложения, краточек, ошибок
     --background-app-color: #181D23;
     --background-accent-color: #{$sky-blue-color-400};
-    --background-surface-color: #{$warm-gray-color-700};
-    --background-surface-color-a1: #{$warm-gray-color-500};
+    --background-surface-color: #{$warm-gray-color-800};
+    --background-surface-color-a1: #{$warm-gray-color-700};
     --background-surface-color-a2: #{$warm-gray-color-600};
-    --background-surface-color-a3: #{$warm-gray-color-800};
+    --background-surface-color-a3: #{$warm-gray-color-500};
     --background-alarm-color: #{$dusty-cherry-color-600};
 
     // Цвета текста на поверхностях с акцентным цветом
@@ -105,7 +104,7 @@
 
     // Цвета текста на поверхностях: приложения, карточек
     --on-surface-primary-text-color: #{$warm-gray-color-200};
-    --on-surface-secondary-text-color: #{$warm-gray-color-400};
+    --on-surface-secondary-text-color: #{$warm-gray-color-300};
     --on-surface-anchor-text-color: #{$sky-blue-color-400};
     --on-surface-interactive-text-color: #{$warm-gray-color-400};
     --on-surface-interactive-icon-color: #{$warm-gray-color-400};
